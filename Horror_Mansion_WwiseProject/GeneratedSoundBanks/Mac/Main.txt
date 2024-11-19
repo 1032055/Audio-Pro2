@@ -1,0 +1,145 @@
+Event	ID	Name			Wwise Object Path	Notes
+	79903961	Play_door_heavy_open			\Default Work Unit\Doors\Play_door_heavy_open	
+	106752682	Play_door_light_close			\Default Work Unit\Doors\Play_door_light_close	
+	754369548	Play_Stinger			\Default Work Unit\Interactables\Play_Stinger	
+	813190480	Play_Small_clock			\Default Work Unit\SFX General\Clocks\Play_Small_clock	
+	820444688	Play_Crows_Random_Container			\Default Work Unit\Wildlife\Play_Crows_Random_Container	
+	930871454	Play_Gramophone			\Default Work Unit\Interactables\Play_Gramophone	
+	1171153354	Play_Furnace_fire_crackles			\Default Work Unit\SFX General\Play_Furnace_fire_crackles	
+	1205379775	Play_door_heavy_close			\Default Work Unit\Doors\Play_door_heavy_close	
+	1241030149	Play_Light_switch			\Default Work Unit\Interactables\Play_Light_switch	
+	1479974693	Play_Piano			\Default Work Unit\Interactables\Play_Piano	
+	1486568025	Play_Water_drip_sequence			\Default Work Unit\SFX General\Play_Water_drip_sequence	
+	1513891888	Play_Outside_Ambience_and_Music_Blend_Container			\Default Work Unit\Ambiences & Music\Play_Outside_Ambience_and_Music_Blend_Container	
+	1551283559	Play_Inside_Ambience_and_Music_Blend_Container			\Default Work Unit\Ambiences & Music\Play_Inside_Ambience_and_Music_Blend_Container	
+	1553787382	Play_Music___Indoor_Shrill			\Default Work Unit\Ambiences & Music\Play_Music___Indoor_Shrill	
+	1602358412	Play_Footstep			\Default Work Unit\Footsteps\Play_Footstep	
+	1660495545	Play_Furnace_rumbles			\Default Work Unit\SFX General\Play_Furnace_rumbles	
+	1751998966	Play_door_basement_bulkhead_close			\Default Work Unit\Doors\Play_door_basement_bulkhead_close	
+	2036602390	Play_UI_Deselect			\Default Work Unit\User Interface\Play_UI_Deselect	
+	2231213135	Set_Surface			\Default Work Unit\Footsteps\Set_Surface	
+	2277063673	Play_door_medium_close			\Default Work Unit\Doors\Play_door_medium_close	
+	2289407054	Play_door_light_open			\Default Work Unit\Doors\Play_door_light_open	
+	2316448637	Play_Objective_completed			\Default Work Unit\Interactables\Play_Objective_completed	
+	2316918641	Play_Fridge			\Default Work Unit\SFX General\Play_Fridge	
+	2323405115	Play_Landing			\Default Work Unit\Footsteps\Play_Landing	
+	2791222881	Play_Guesthouse_clock			\Default Work Unit\SFX General\Clocks\Play_Guesthouse_clock	
+	3094035634	Play_Toilet_flush			\Default Work Unit\Interactables\Play_Toilet_flush	
+	3201265835	Play_door_medium_open			\Default Work Unit\Doors\Play_door_medium_open	
+	3308548503	Play_UI_Select			\Default Work Unit\User Interface\Play_UI_Select	
+	3529309445	Play_Grandfather_Clock_Ticking			\Default Work Unit\SFX General\Clocks\Play_Grandfather_Clock_Ticking	
+	3610768546	Play_door_basement_bulkhead_open			\Default Work Unit\Doors\Play_door_basement_bulkhead_open	
+	3689126666	Play_Jump			\Default Work Unit\Footsteps\Play_Jump	
+	3870462868	Play_Thunder			\Default Work Unit\Ambiences & Music\Play_Thunder	
+	3959166920	Stop_Gramophone			\Default Work Unit\Interactables\Stop_Gramophone	
+	4029451095	Play_Telephone_ring			\Default Work Unit\Interactables\Play_Telephone_ring	
+	4139471422	Play_Greenhouse_Ambience_and_Music_Blend_Container			\Default Work Unit\Ambiences & Music\Play_Greenhouse_Ambience_and_Music_Blend_Container	
+	4285720487	Play_Telephone_answer			\Default Work Unit\Interactables\Play_Telephone_answer	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	63790334	SurfaceType			\Default Work Unit\SurfaceType	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	SurfaceType			
+	2058049674	Wood	SurfaceType			
+	2185786256	Gravel	SurfaceType			
+	2195636714	Dirt	SurfaceType			
+	2412606308	Carpet	SurfaceType			
+	2637588553	Tile	SurfaceType			
+	4248645337	Grass	SurfaceType			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1176052424	Location			\Default Work Unit\Location	
+	1978863953	Upstairs_Downstairs			\Default Work Unit\Upstairs_Downstairs	
+
+State	ID	Name	State Group			Notes
+	438105790	Outside	Location			
+	748895195	None	Location			
+	3553349781	Inside	Location			
+	4238926114	Greenhouse	Location			
+	748895195	None	Upstairs_Downstairs			
+	769052060	Upstairs	Upstairs_Downstairs			
+	4106209011	Downstairs	Upstairs_Downstairs			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	77985649	Bus_Volume_Ambience			\Default Work Unit\Bus_Volume_Ambience	
+	194530214	Bus_Volume_SFX			\Default Work Unit\Bus_Volume_SFX	
+	222722569	RTPC_Occlusion_LoPass			\Default Work Unit\RTPC_Occlusion_LoPass	
+	342905355	RTPC_Occlusion_Volume			\Default Work Unit\RTPC_Occlusion_Volume	
+	940167904	Aux_Reverb_1			\Default Work Unit\Aux_Reverb_1	
+	940167906	Aux_Reverb_3			\Default Work Unit\Aux_Reverb_3	
+	940167907	Aux_Reverb_2			\Default Work Unit\Aux_Reverb_2	
+	2849708270	Bus_Volume_Music			\Default Work Unit\Bus_Volume_Music	
+	4073739390	Bus_Volume_Footsteps			\Default Work Unit\Bus_Volume_Footsteps	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	1502772432	SFX Bus			\Default Work Unit\Master Audio Bus\SFX Bus	
+	2247540952	Footsteps Bus			\Default Work Unit\Master Audio Bus\Footsteps Bus	
+	3127962312	Music Bus			\Default Work Unit\Master Audio Bus\Music Bus	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	4202237879	Ambience Bus			\Default Work Unit\Master Audio Bus\Ambience Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	940167904	Aux_Reverb_1			\Default Work Unit\Master Audio Bus\Aux_Reverb_1	
+	940167906	Aux_Reverb_3			\Default Work Unit\Master Audio Bus\Aux_Reverb_3	
+	940167907	Aux_Reverb_2			\Default Work Unit\Master Audio Bus\Aux_Reverb_2	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1990128658	Room_Medium	Wwise RoomVerb			
+	2849147824	Medium	Wwise RoomVerb			
+	3164629247	Holy	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	23991499	Footstep - dirt (3)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - dirt (3)_9BC3A027.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Dirt\Footstep - dirt (3)		53880
+	46894946	Footstep - dirt (4)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - dirt (4)_1E93C8A4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Dirt\Footstep - dirt (4)		29634
+	84985140	Footstep - grass (3)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - grass (3)_616C7E0F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Grass\Footstep - grass (3)		59744
+	97072554	Footstep - rock (4)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - rock (4)_DCB5B73A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Gravel\Footstep - rock (4)		40604
+	134820969	Footstep - dirt (2)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - dirt (2)_45427532.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Dirt\Footstep - dirt (2)		34482
+	231464000	Play_Landing	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Jump - land_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Play_Landing		6680
+	239863977	Crow, Ravens Croaking	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Crow, Ravens Croaking_5B1F81DA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wildlife\Crows - Random Container\Crow, Ravens Croaking		47770
+	245738382	Footstep - carpet (8)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - carpet (8)_49DBF6A8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Carpet\Footstep - carpet (8)		45084
+	264926556	Footstep - wood (3)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - wood (3)_46EEF1AE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Wood\Footstep - wood (3)		42796
+	265018733	Footstep - wood (1)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - wood (1)_50BA1314.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Wood\Footstep - wood (1)		42878
+	272515152	Footstep - dirt (5)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - dirt (5)_05F8B4DC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Dirt\Footstep - dirt (5)		28310
+	281939355	Crow, Ravens Croaking_01	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Crow, Ravens Croaking_95B4D321.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wildlife\Crows - Random Container\Crow, Ravens Croaking_01		70162
+	303011290	Footstep - dirt (1)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - dirt (1)_E78E00E1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Dirt\Footstep - dirt (1)		28310
+	317005752	Footstep - concrete (2)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - concrete (2)_6CEE8880.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Concrete\Footstep - concrete (2)		25532
+	318589639	Crow, Ravens Croaking_02	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Crow, Ravens Croaking_8C7A7BBF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wildlife\Crows - Random Container\Crow, Ravens Croaking_02		70162
+	329293238	Footstep - concrete (1)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - concrete (1)_E9421003.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Concrete\Footstep - concrete (1)		34678
+	337902890	Footstep - rock (3)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - rock (3)_597AB89D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Gravel\Footstep - rock (3)		43624
+	369913385	Footstep - concrete (5)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - concrete (5)_EC18167F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Concrete\Footstep - concrete (5)		30118
+	389546834	UI Select	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Silence_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\UI Select		14156
+	469551506	Footstep - concrete (8)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - concrete (8)_2FD7B0CB.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Concrete\Footstep - concrete (8)		29162
+	492557327	Footstep - concrete (7)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - concrete (7)_E1923862.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Concrete\Footstep - concrete (7)		26194
+	551188414	Footstep - rock (1)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - rock (1)_8601FB2E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Gravel\Footstep - rock (1)		39016
+	557698083	Footstep - concrete (4)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - concrete (4)_3C06734B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Concrete\Footstep - concrete (4)		31072
+	577053843	Footstep - carpet (6)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - carpet (6)_3B2D0772.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Carpet\Footstep - carpet (6)		48116
+	605878523	Play_Jump	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Jump - up_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Play_Jump		23392
+	619662538	Footstep - wood (7)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - wood (7)_2D7B692A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Wood\Footstep - wood (7)		39440
+	629568929	Ambience_Mansion	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Silence_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiences\Ambience and Music Blend Container - Inside\Ambience_Mansion		14156
+	670966047	Footstep - dirt (8)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - dirt (8)_93B14817.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Dirt\Footstep - dirt (8)		29634
+	677708686	Footstep - wood (8)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - wood (8)_F661BD63.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Wood\Footstep - wood (8)		41488
+	694041126	Footstep - carpet (2)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - carpet (2)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Carpet\Footstep - carpet (2)		43558
+	729668058	Footstep - wood (2)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - wood (2)_1E0A569E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Wood\Footstep - wood (2)		37926
+	742649287	Footstep - concrete (10)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - concrete (10)_ABCDD673.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Concrete\Footstep - concrete (10)		28972
+	749327732	Footstep - grass (1)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - grass (1)_464D35D7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Grass\Footstep - grass (1)		60494
+	776649804	Footstep - carpet (5)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - carpet (5)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Carpet\Footstep - carpet (5)		43640
+	781716006	Footstep - carpet (1)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - carpet (1)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Carpet\Footstep - carpet (1)		40934
+	781953978	Footstep - rock (2)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - rock (2)_EFC011A6.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Gravel\Footstep - rock (2)		51710
+	797939279	Footstep - wood (9)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - wood (9)_71E06B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Wood\Footstep - wood (9)		36962
+	827882821	Footstep - wood (5)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - wood (5)_8A42B438.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Wood\Footstep - wood (5)		38948
+	845384465	Footstep - carpet (10)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - carpet (10)_8B72C1E1.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Carpet\Footstep - carpet (10)		45046
+	849821534	Footstep - grass (2)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - grass (2)_6622F33E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Grass\Footstep - grass (2)		62256
+	887827678	Footstep - concrete (3)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - concrete (3)_67165420.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Concrete\Footstep - concrete (3)		29886
+	892878092	Footstep - carpet (4)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - carpet (4)_CAF1230B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Carpet\Footstep - carpet (4)		42664
+	909416124	Footstep - concrete (6)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - concrete (6)_5B955103.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Concrete\Footstep - concrete (6)		30284
+	913718745	Footstep - wood (4)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - wood (4)_4CE4A1F9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Wood\Footstep - wood (4)		41882
+	969914116	Footstep - dirt (7)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - dirt (7)_B200B32A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Dirt\Footstep - dirt (7)		53880
+	982231224	Footstep - wood (6)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - wood (6)_1560358A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Wood\Footstep - wood (6)		41866
+	992858007	Footstep - carpet (9)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - carpet (9)_FB70D86E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Carpet\Footstep - carpet (9)		44100
+	1017015682	Footstep - carpet (7)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - carpet (7)_5F27D268.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Carpet\Footstep - carpet (7)		48742
+	1022945734	Footstep - wood (10)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - wood (10)_2D56B5B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Wood\Footstep - wood (10)		37838
+	1035753760	Footstep - concrete (9)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - concrete (9)_FBA85EA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Concrete\Footstep - concrete (9)		28556
+	1049148623	Footstep - dirt (6)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - dirt (6)_E6DA6282.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Dirt\Footstep - dirt (6)		34482
+	1049470153	Footstep - carpet (3)	D:\UnityFiles\24T3 Horror Mansion PC\24T3 Horror Mansion\Horror_Mansion_WwiseProject\.cache\Mac\SFX\Footstep - carpet (3)_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Footsteps - switch\Carpet\Footstep - carpet (3)		46400
+
