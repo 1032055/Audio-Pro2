@@ -95,29 +95,41 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{D5E9C356-9447-30B2-797F-1362CBB90D83}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{893705B1-0739-E3B3-2617-89E599F64027}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
 				<File Id="23991499" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - dirt (3).wav</ShortName>
-					<CachePath>SFX/Footstep - dirt (3)_9BC3A027.wem</CachePath>
+					<CachePath>SFX/Footstep - dirt (3)_660AB9E3.wem</CachePath>
+				</File>
+				<File Id="42665277" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door - Open &amp; close.wav</ShortName>
+					<CachePath>SFX/Door - Open &amp; close_A9EC68B7.wem</CachePath>
 				</File>
 				<File Id="46894946" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - dirt (4).wav</ShortName>
-					<CachePath>SFX/Footstep - dirt (4)_1E93C8A4.wem</CachePath>
+					<CachePath>SFX/Footstep - dirt (4)_418A9382.wem</CachePath>
 				</File>
 				<File Id="84985140" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - grass (3).wav</ShortName>
-					<CachePath>SFX/Footstep - grass (3)_616C7E0F.wem</CachePath>
+					<CachePath>SFX/Footstep - grass (3)_1726D43C.wem</CachePath>
 				</File>
 				<File Id="97072554" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - rock (4).wav</ShortName>
-					<CachePath>SFX/Footstep - rock (4)_DCB5B73A.wem</CachePath>
+					<CachePath>SFX/Footstep - rock (4)_C85EFEB3.wem</CachePath>
+				</File>
+				<File Id="99555989" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door - Open &amp; close.wav</ShortName>
+					<CachePath>SFX/Door - Open &amp; close_60047C9E.wem</CachePath>
+				</File>
+				<File Id="106993513" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tock 4.wav</ShortName>
+					<CachePath>SFX/Tock 4_818F3B66.wem</CachePath>
 				</File>
 				<File Id="134820969" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - dirt (2).wav</ShortName>
-					<CachePath>SFX/Footstep - dirt (2)_45427532.wem</CachePath>
+					<CachePath>SFX/Footstep - dirt (2)_37D6DB56.wem</CachePath>
 				</File>
 				<File Id="231464000" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Jump - land.wav</ShortName>
@@ -129,11 +141,11 @@
 				</File>
 				<File Id="245738382" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - carpet (8).wav</ShortName>
-					<CachePath>SFX/Footstep - carpet (8)_49DBF6A8.wem</CachePath>
+					<CachePath>SFX/Footstep - carpet (8)_CCC92716.wem</CachePath>
 				</File>
 				<File Id="264926556" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - wood (3).wav</ShortName>
-					<CachePath>SFX/Footstep - wood (3)_46EEF1AE.wem</CachePath>
+					<CachePath>SFX/Footstep - wood (3)_53A3442F.wem</CachePath>
 				</File>
 				<File Id="265018733" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - wood (1).wav</ShortName>
@@ -141,7 +153,7 @@
 				</File>
 				<File Id="272515152" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - dirt (5).wav</ShortName>
-					<CachePath>SFX/Footstep - dirt (5)_05F8B4DC.wem</CachePath>
+					<CachePath>SFX/Footstep - dirt (5)_3B511154.wem</CachePath>
 				</File>
 				<File Id="281939355" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Crow, Ravens Croaking.wav</ShortName>
@@ -149,11 +161,11 @@
 				</File>
 				<File Id="303011290" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - dirt (1).wav</ShortName>
-					<CachePath>SFX/Footstep - dirt (1)_E78E00E1.wem</CachePath>
+					<CachePath>SFX/Footstep - dirt (1)_031D20FB.wem</CachePath>
 				</File>
 				<File Id="317005752" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - concrete (2).wav</ShortName>
-					<CachePath>SFX/Footstep - concrete (2)_6CEE8880.wem</CachePath>
+					<CachePath>SFX/Footstep - concrete (2)_B05FB377.wem</CachePath>
 				</File>
 				<File Id="318589639" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Crow, Ravens Croaking.wav</ShortName>
@@ -161,47 +173,67 @@
 				</File>
 				<File Id="329293238" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - concrete (1).wav</ShortName>
-					<CachePath>SFX/Footstep - concrete (1)_E9421003.wem</CachePath>
+					<CachePath>SFX/Footstep - concrete (1)_8CB727E2.wem</CachePath>
 				</File>
 				<File Id="337902890" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - rock (3).wav</ShortName>
-					<CachePath>SFX/Footstep - rock (3)_597AB89D.wem</CachePath>
+					<CachePath>SFX/Footstep - rock (3)_6BBE5EB3.wem</CachePath>
 				</File>
 				<File Id="369913385" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - concrete (5).wav</ShortName>
-					<CachePath>SFX/Footstep - concrete (5)_EC18167F.wem</CachePath>
+					<CachePath>SFX/Footstep - concrete (5)_F01156F2.wem</CachePath>
+				</File>
+				<File Id="386259801" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Light switch.wav</ShortName>
+					<CachePath>SFX/Light switch_818F3B66.wem</CachePath>
 				</File>
 				<File Id="389546834" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Silence.wav</ShortName>
 					<CachePath>SFX/Silence_818F3B66.wem</CachePath>
 				</File>
+				<File Id="408854325" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door - Light open.wav</ShortName>
+					<CachePath>SFX/Door - Light open_818F3B66.wem</CachePath>
+				</File>
+				<File Id="420229625" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tick 1.wav</ShortName>
+					<CachePath>SFX/Tick 1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="456774700" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tock 1.wav</ShortName>
+					<CachePath>SFX/Tock 1_818F3B66.wem</CachePath>
+				</File>
 				<File Id="469551506" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - concrete (8).wav</ShortName>
-					<CachePath>SFX/Footstep - concrete (8)_2FD7B0CB.wem</CachePath>
+					<CachePath>SFX/Footstep - concrete (8)_F0386AD2.wem</CachePath>
 				</File>
 				<File Id="492557327" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - concrete (7).wav</ShortName>
-					<CachePath>SFX/Footstep - concrete (7)_E1923862.wem</CachePath>
+					<CachePath>SFX/Footstep - concrete (7)_1C1B129C.wem</CachePath>
 				</File>
 				<File Id="551188414" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - rock (1).wav</ShortName>
-					<CachePath>SFX/Footstep - rock (1)_8601FB2E.wem</CachePath>
+					<CachePath>SFX/Footstep - rock (1)_2C321BB4.wem</CachePath>
 				</File>
 				<File Id="557698083" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - concrete (4).wav</ShortName>
-					<CachePath>SFX/Footstep - concrete (4)_3C06734B.wem</CachePath>
+					<CachePath>SFX/Footstep - concrete (4)_C0ECD712.wem</CachePath>
 				</File>
 				<File Id="577053843" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - carpet (6).wav</ShortName>
-					<CachePath>SFX/Footstep - carpet (6)_3B2D0772.wem</CachePath>
+					<CachePath>SFX/Footstep - carpet (6)_5272B908.wem</CachePath>
 				</File>
 				<File Id="605878523" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Jump - up.wav</ShortName>
 					<CachePath>SFX/Jump - up_818F3B66.wem</CachePath>
 				</File>
+				<File Id="615400372" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tick 3.wav</ShortName>
+					<CachePath>SFX/Tick 3_818F3B66.wem</CachePath>
+				</File>
 				<File Id="619662538" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - wood (7).wav</ShortName>
-					<CachePath>SFX/Footstep - wood (7)_2D7B692A.wem</CachePath>
+					<CachePath>SFX/Footstep - wood (7)_B206A83D.wem</CachePath>
 				</File>
 				<File Id="629568929" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Silence.wav</ShortName>
@@ -209,11 +241,11 @@
 				</File>
 				<File Id="670966047" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - dirt (8).wav</ShortName>
-					<CachePath>SFX/Footstep - dirt (8)_93B14817.wem</CachePath>
+					<CachePath>SFX/Footstep - dirt (8)_3B61003F.wem</CachePath>
 				</File>
 				<File Id="677708686" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - wood (8).wav</ShortName>
-					<CachePath>SFX/Footstep - wood (8)_F661BD63.wem</CachePath>
+					<CachePath>SFX/Footstep - wood (8)_DBCCD2D1.wem</CachePath>
 				</File>
 				<File Id="694041126" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - carpet (2).wav</ShortName>
@@ -221,15 +253,19 @@
 				</File>
 				<File Id="729668058" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - wood (2).wav</ShortName>
-					<CachePath>SFX/Footstep - wood (2)_1E0A569E.wem</CachePath>
+					<CachePath>SFX/Footstep - wood (2)_8FC6C93F.wem</CachePath>
 				</File>
 				<File Id="742649287" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - concrete (10).wav</ShortName>
-					<CachePath>SFX/Footstep - concrete (10)_ABCDD673.wem</CachePath>
+					<CachePath>SFX/Footstep - concrete (10)_10CD5BA2.wem</CachePath>
 				</File>
 				<File Id="749327732" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - grass (1).wav</ShortName>
-					<CachePath>SFX/Footstep - grass (1)_464D35D7.wem</CachePath>
+					<CachePath>SFX/Footstep - grass (1)_28C6D621.wem</CachePath>
+				</File>
+				<File Id="762573012" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door - Open &amp; close.wav</ShortName>
+					<CachePath>SFX/Door - Open &amp; close_95160388.wem</CachePath>
 				</File>
 				<File Id="776649804" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - carpet (5).wav</ShortName>
@@ -241,47 +277,63 @@
 				</File>
 				<File Id="781953978" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - rock (2).wav</ShortName>
-					<CachePath>SFX/Footstep - rock (2)_EFC011A6.wem</CachePath>
+					<CachePath>SFX/Footstep - rock (2)_C0C80DD4.wem</CachePath>
 				</File>
 				<File Id="797939279" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - wood (9).wav</ShortName>
-					<CachePath>SFX/Footstep - wood (9)_71E06B66.wem</CachePath>
+					<CachePath>SFX/Footstep - wood (9)_5F8E5682.wem</CachePath>
 				</File>
 				<File Id="827882821" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - wood (5).wav</ShortName>
-					<CachePath>SFX/Footstep - wood (5)_8A42B438.wem</CachePath>
+					<CachePath>SFX/Footstep - wood (5)_A4C9BFE4.wem</CachePath>
 				</File>
 				<File Id="845384465" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - carpet (10).wav</ShortName>
-					<CachePath>SFX/Footstep - carpet (10)_8B72C1E1.wem</CachePath>
+					<CachePath>SFX/Footstep - carpet (10)_D58EEF88.wem</CachePath>
 				</File>
 				<File Id="849821534" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - grass (2).wav</ShortName>
-					<CachePath>SFX/Footstep - grass (2)_6622F33E.wem</CachePath>
+					<CachePath>SFX/Footstep - grass (2)_DE6DBC78.wem</CachePath>
+				</File>
+				<File Id="875848302" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tick 4.wav</ShortName>
+					<CachePath>SFX/Tick 4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="885824163" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Door - Light close.wav</ShortName>
+					<CachePath>SFX/Door - Light close_818F3B66.wem</CachePath>
 				</File>
 				<File Id="887827678" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - concrete (3).wav</ShortName>
-					<CachePath>SFX/Footstep - concrete (3)_67165420.wem</CachePath>
+					<CachePath>SFX/Footstep - concrete (3)_9271E292.wem</CachePath>
 				</File>
 				<File Id="892878092" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - carpet (4).wav</ShortName>
-					<CachePath>SFX/Footstep - carpet (4)_CAF1230B.wem</CachePath>
+					<CachePath>SFX/Footstep - carpet (4)_8A2B39BE.wem</CachePath>
 				</File>
 				<File Id="909416124" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - concrete (6).wav</ShortName>
-					<CachePath>SFX/Footstep - concrete (6)_5B955103.wem</CachePath>
+					<CachePath>SFX/Footstep - concrete (6)_82AFD5C7.wem</CachePath>
 				</File>
 				<File Id="913718745" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - wood (4).wav</ShortName>
 					<CachePath>SFX/Footstep - wood (4)_4CE4A1F9.wem</CachePath>
 				</File>
+				<File Id="950788988" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tock 3.wav</ShortName>
+					<CachePath>SFX/Tock 3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="965425225" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Tick 2.wav</ShortName>
+					<CachePath>SFX/Tick 2_818F3B66.wem</CachePath>
+				</File>
 				<File Id="969914116" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - dirt (7).wav</ShortName>
-					<CachePath>SFX/Footstep - dirt (7)_B200B32A.wem</CachePath>
+					<CachePath>SFX/Footstep - dirt (7)_0238853E.wem</CachePath>
 				</File>
 				<File Id="982231224" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - wood (6).wav</ShortName>
-					<CachePath>SFX/Footstep - wood (6)_1560358A.wem</CachePath>
+					<CachePath>SFX/Footstep - wood (6)_90C20D93.wem</CachePath>
 				</File>
 				<File Id="992858007" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - carpet (9).wav</ShortName>
@@ -289,7 +341,7 @@
 				</File>
 				<File Id="1017015682" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - carpet (7).wav</ShortName>
-					<CachePath>SFX/Footstep - carpet (7)_5F27D268.wem</CachePath>
+					<CachePath>SFX/Footstep - carpet (7)_D90A6F15.wem</CachePath>
 				</File>
 				<File Id="1022945734" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - wood (10).wav</ShortName>
@@ -297,11 +349,11 @@
 				</File>
 				<File Id="1035753760" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - concrete (9).wav</ShortName>
-					<CachePath>SFX/Footstep - concrete (9)_FBA85EA5.wem</CachePath>
+					<CachePath>SFX/Footstep - concrete (9)_21AC641C.wem</CachePath>
 				</File>
 				<File Id="1049148623" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - dirt (6).wav</ShortName>
-					<CachePath>SFX/Footstep - dirt (6)_E6DA6282.wem</CachePath>
+					<CachePath>SFX/Footstep - dirt (6)_7F83D15B.wem</CachePath>
 				</File>
 				<File Id="1049470153" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Footstep - carpet (3).wav</ShortName>
@@ -333,9 +385,9 @@
 						<MediaRef Id="389546834"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1205379775" Name="Play_door_heavy_close" DurationType="OneShot" DurationMin="0.15941043" DurationMax="0.15941043">
+				<Event Id="1205379775" Name="Play_door_heavy_close" DurationType="OneShot" DurationMin="1.3443632" DurationMax="1.3443632">
 					<MediaRefs>
-						<MediaRef Id="389546834"/>
+						<MediaRef Id="99555989"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="79903961" Name="Play_door_heavy_open" DurationType="OneShot" DurationMin="0.15941043" DurationMax="0.15941043">
@@ -343,27 +395,27 @@
 						<MediaRef Id="389546834"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="106752682" Name="Play_door_light_close" DurationType="OneShot" DurationMin="0.15941043" DurationMax="0.15941043">
+				<Event Id="106752682" Name="Play_door_light_close" DurationType="OneShot" DurationMin="3.6134272" DurationMax="3.6134272">
 					<MediaRefs>
-						<MediaRef Id="389546834"/>
+						<MediaRef Id="885824163"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2289407054" Name="Play_door_light_open" DurationType="OneShot" DurationMin="0.15941043" DurationMax="0.15941043">
+				<Event Id="2289407054" Name="Play_door_light_open" DurationType="OneShot" DurationMin="2.5541146" DurationMax="2.5541146">
 					<MediaRefs>
-						<MediaRef Id="389546834"/>
+						<MediaRef Id="408854325"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2277063673" Name="Play_door_medium_close" DurationType="OneShot" DurationMin="0.15941043" DurationMax="0.15941043">
+				<Event Id="2277063673" Name="Play_door_medium_close" DurationType="OneShot" DurationMin="1.4933864" DurationMax="1.4933864">
 					<MediaRefs>
-						<MediaRef Id="389546834"/>
+						<MediaRef Id="42665277"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3201265835" Name="Play_door_medium_open" DurationType="OneShot" DurationMin="0.15941043" DurationMax="0.15941043">
+				<Event Id="3201265835" Name="Play_door_medium_open" DurationType="OneShot" DurationMin="0.87808555" DurationMax="0.87808555">
 					<MediaRefs>
-						<MediaRef Id="389546834"/>
+						<MediaRef Id="762573012"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1602358412" Name="Play_Footstep" DurationType="OneShot" DurationMin="0.1482206" DurationMax="0.75796753">
+				<Event Id="1602358412" Name="Play_Footstep" DurationType="OneShot" DurationMin="0.1482206" DurationMax="0.78017765">
 					<SwitchContainers>
 						<SwitchContainer>
 							<SwitchValue GroupType="Switch" GroupId="63790334" Id="2195636714"/>
@@ -551,7 +603,8 @@
 				</Event>
 				<Event Id="3529309445" Name="Play_Grandfather_Clock_Ticking" MaxAttenuation="30" DurationType="Infinite">
 					<MediaRefs>
-						<MediaRef Id="389546834"/>
+						<MediaRef Id="106993513"/>
+						<MediaRef Id="875848302"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4139471422" Name="Play_Greenhouse_Ambience_and_Music_Blend_Container" DurationType="Infinite">
@@ -562,6 +615,11 @@
 				<Event Id="2791222881" Name="Play_Guesthouse_clock" MaxAttenuation="30" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="389546834"/>
+						<MediaRef Id="420229625"/>
+						<MediaRef Id="456774700"/>
+						<MediaRef Id="615400372"/>
+						<MediaRef Id="950788988"/>
+						<MediaRef Id="965425225"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1551283559" Name="Play_Inside_Ambience_and_Music_Blend_Container" DurationType="Infinite">
@@ -580,9 +638,9 @@
 						<MediaRef Id="231464000"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1241030149" Name="Play_Light_switch" DurationType="OneShot" DurationMin="0.1439179" DurationMax="0.17144503">
+				<Event Id="1241030149" Name="Play_Light_switch" DurationType="OneShot" DurationMin="0.25275537" DurationMax="0.31845182">
 					<MediaRefs>
-						<MediaRef Id="389546834"/>
+						<MediaRef Id="386259801"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1553787382" Name="Play_Music___Indoor_Shrill" DurationType="Infinite">
@@ -722,5 +780,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7C4920A1-85C9-7715-7D04-F429A6EA5DE7}</FileHash>
+	<FileHash>{BA74BF06-4505-AC7B-9EAD-1F638E2E0039}</FileHash>
 </SoundBanksInfo>
