@@ -74,10 +74,6 @@
 							<Position X="4" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Telephone answer" ID="{B8B9BD3C-AD13-4FFC-9422-4863F78D6A5A}" WorkUnitID="{157A0879-55FC-43E9-B85E-47E53620CAAC}"/>
-							<Position X="4" Y="1"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Toilet flush" ID="{411D31F4-A307-4A5F-A5D5-2A5112714F57}" WorkUnitID="{157A0879-55FC-43E9-B85E-47E53620CAAC}"/>
 							<Position X="4" Y="2"/>
 						</Module>

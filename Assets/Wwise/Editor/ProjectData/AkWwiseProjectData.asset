@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 33b45dc497d7674e951e85bd25c4d08a
     GuidInternal: 
-    m_lastTime: -8584696105324186125
+    m_lastTime: -8584679260086145924
     List:
     - name: Ambience Bus
       guid: cb515b18a5543046b64fe52aea6a79c0
@@ -213,7 +213,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: b94152b09dca0742a86dd5712aef856b
     GuidInternal: 
-    m_lastTime: -8584696105324806582
+    m_lastTime: -8584679274434199226
     List:
     - name: Ambiences & Music
       guid: 4e39e7c42af38f44b391efbc7e2b04fc
@@ -303,6 +303,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Play_Breathing
+      guid: 08b88c143365fc4284d470395b5aa7d9
+      id: 4093367312
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b94152b09dca0742a86dd5712aef856b
+      - ElementName: SFX General
+        ObjectType: 4
+        guid: 449bcd71d67da846900c4cad615eee70
+      - ElementName: Play_Breathing
+        ObjectType: 3
+        guid: 08b88c143365fc4284d470395b5aa7d9
+      Path: Events\Default Work Unit\SFX General\Play_Breathing
+      maxAttenuation: 30
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Crows_Random_Container
       guid: 1067a2d654b7c740a8d208d9e4dcb5f5
       id: 820444688
@@ -320,9 +340,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1067a2d654b7c740a8d208d9e4dcb5f5
       Path: Events\Default Work Unit\Wildlife\Play_Crows_Random_Container
-      maxAttenuation: 30
-      maxDuration: 15.956326
-      minDuration: 5.956326
+      maxAttenuation: 20
+      maxDuration: 54.029114
+      minDuration: 19.029114
     - name: Play_door_basement_bulkhead_close
       guid: 2126d7e69a7328499f532c99ceab9b4e
       id: 1751998966
@@ -340,9 +360,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 2126d7e69a7328499f532c99ceab9b4e
       Path: Events\Default Work Unit\Doors\Play_door_basement_bulkhead_close
-      maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxAttenuation: 20
+      maxDuration: 1.5696636
+      minDuration: 1.5696636
     - name: Play_door_basement_bulkhead_open
       guid: e2807cdd796286409e9e7aff708788a0
       id: 3610768546
@@ -361,8 +381,8 @@ MonoBehaviour:
         guid: e2807cdd796286409e9e7aff708788a0
       Path: Events\Default Work Unit\Doors\Play_door_basement_bulkhead_open
       maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 1.4239092
+      minDuration: 1.4239092
     - name: Play_door_heavy_close
       guid: 552004f0ff8f5f499b9b531b35eeeaa7
       id: 1205379775
@@ -380,7 +400,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 552004f0ff8f5f499b9b531b35eeeaa7
       Path: Events\Default Work Unit\Doors\Play_door_heavy_close
-      maxAttenuation: 0
+      maxAttenuation: 20
       maxDuration: 1.3443632
       minDuration: 1.3443632
     - name: Play_door_heavy_open
@@ -401,8 +421,8 @@ MonoBehaviour:
         guid: 9eee7274a806c641a04a324cfe2a7f5c
       Path: Events\Default Work Unit\Doors\Play_door_heavy_open
       maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 1.2169241
+      minDuration: 1.2169241
     - name: Play_door_light_close
       guid: 190349bba92f2a40880a6a183b970788
       id: 106752682
@@ -420,9 +440,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 190349bba92f2a40880a6a183b970788
       Path: Events\Default Work Unit\Doors\Play_door_light_close
-      maxAttenuation: 0
-      maxDuration: 3.6134272
-      minDuration: 3.6134272
+      maxAttenuation: 20
+      maxDuration: 1.2696904
+      minDuration: 1.2696904
     - name: Play_door_light_open
       guid: e9d22f273e619a418cf9ed3d06b3a35b
       id: 2289407054
@@ -441,8 +461,8 @@ MonoBehaviour:
         guid: e9d22f273e619a418cf9ed3d06b3a35b
       Path: Events\Default Work Unit\Doors\Play_door_light_open
       maxAttenuation: 0
-      maxDuration: 2.5541146
-      minDuration: 2.5541146
+      maxDuration: 1.035757
+      minDuration: 1.035757
     - name: Play_door_medium_close
       guid: 3076bd91ae4ad14396604f028d3d3c46
       id: 2277063673
@@ -460,7 +480,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 3076bd91ae4ad14396604f028d3d3c46
       Path: Events\Default Work Unit\Doors\Play_door_medium_close
-      maxAttenuation: 0
+      maxAttenuation: 20
       maxDuration: 1.4933864
       minDuration: 1.4933864
     - name: Play_door_medium_open
@@ -502,7 +522,7 @@ MonoBehaviour:
       Path: Events\Default Work Unit\Footsteps\Play_Footstep
       maxAttenuation: 0
       maxDuration: 0.78017765
-      minDuration: 0.1482206
+      minDuration: 0.24635956
     - name: Play_Fridge
       guid: 27f31684b50dfc46b4c24ca84482b068
       id: 2316918641
@@ -581,8 +601,8 @@ MonoBehaviour:
         guid: 5ab3be2cb5ec9e47b64ab5638a5bae6e
       Path: Events\Default Work Unit\Interactables\Play_Gramophone
       maxAttenuation: 30
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 304.2743
+      minDuration: 304.2743
     - name: Play_Grandfather_Clock_Ticking
       guid: b09951a14bf54144b224b4258866278a
       id: 3529309445
@@ -767,8 +787,8 @@ MonoBehaviour:
         guid: 53c9affbb203d747b0af5f212d15da13
       Path: Events\Default Work Unit\Interactables\Play_Objective_completed
       maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 1.0113245
+      minDuration: 1.0113245
     - name: Play_Outside_Ambience_and_Music_Blend_Container
       guid: 987a2a9fcc076a47a44e31ae5c6d90c7
       id: 1513891888
@@ -807,8 +827,8 @@ MonoBehaviour:
         guid: 70236c52f8bff54e9cc0024299af2c21
       Path: Events\Default Work Unit\Interactables\Play_Piano
       maxAttenuation: 30
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 4.363651
+      minDuration: 4.363628
     - name: Play_Small_clock
       guid: 751e89c23a2a3c468a8715354cb426d2
       id: 813190480
@@ -832,6 +852,26 @@ MonoBehaviour:
       maxAttenuation: 30
       maxDuration: -1
       minDuration: -1
+    - name: Play_SpookyLaugh1
+      guid: 81b30f464479684096d37268faa62474
+      id: 3354162405
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b94152b09dca0742a86dd5712aef856b
+      - ElementName: TriggerBoxes
+        ObjectType: 4
+        guid: 47e79b14e5179342832318903dbc0b3f
+      - ElementName: Play_SpookyLaugh1
+        ObjectType: 3
+        guid: 81b30f464479684096d37268faa62474
+      Path: Events\Default Work Unit\TriggerBoxes\Play_SpookyLaugh1
+      maxAttenuation: 0
+      maxDuration: 2.7158525
+      minDuration: 2.7158525
     - name: Play_Stinger
       guid: d0bbef9e4e2d6b48a724554a6e55bb05
       id: 754369548
@@ -869,9 +909,9 @@ MonoBehaviour:
         ObjectType: 3
         guid: 6ec965f21ad95e42a08a929e8937e61d
       Path: Events\Default Work Unit\Interactables\Play_Telephone_answer
-      maxAttenuation: 30
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxAttenuation: 15
+      maxDuration: 12.7970295
+      minDuration: 8.365551
     - name: Play_Telephone_ring
       guid: c2da90826cfd3d4b9077cc1e22880401
       id: 4029451095
@@ -890,8 +930,8 @@ MonoBehaviour:
         guid: c2da90826cfd3d4b9077cc1e22880401
       Path: Events\Default Work Unit\Interactables\Play_Telephone_ring
       maxAttenuation: 30
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: -1
+      minDuration: -1
     - name: Play_Thunder
       guid: 276596d6aea48346acf9c5e7f913e883
       id: 3870462868
@@ -930,8 +970,8 @@ MonoBehaviour:
         guid: 294680be1ad36f47a8f5700d0e5eec98
       Path: Events\Default Work Unit\Interactables\Play_Toilet_flush
       maxAttenuation: 30
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 8.444922
+      minDuration: 8.444922
     - name: Play_UI_Deselect
       guid: 0d53bc6559666a41bfed6968fb7ef73b
       id: 2036602390
@@ -950,8 +990,8 @@ MonoBehaviour:
         guid: 0d53bc6559666a41bfed6968fb7ef73b
       Path: Events\Default Work Unit\User Interface\Play_UI_Deselect
       maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 0.21487242
+      minDuration: 0.21487242
     - name: Play_UI_Select
       guid: f8e149fd7b11044c819b8690b62e2fd3
       id: 3308548503
@@ -970,8 +1010,8 @@ MonoBehaviour:
         guid: f8e149fd7b11044c819b8690b62e2fd3
       Path: Events\Default Work Unit\User Interface\Play_UI_Select
       maxAttenuation: 0
-      maxDuration: 0.15941043
-      minDuration: 0.15941043
+      maxDuration: 0.20213924
+      minDuration: 0.20213924
     - name: Play_Water_drip_sequence
       guid: 5f3975f18da83244af47bcc3dc40ec1d
       id: 1486568025
@@ -1049,6 +1089,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: TriggerBoxes
+      guid: 47e79b14e5179342832318903dbc0b3f
+      id: 2864191458
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: b94152b09dca0742a86dd5712aef856b
+      - ElementName: TriggerBoxes
+        ObjectType: 4
+        guid: 47e79b14e5179342832318903dbc0b3f
+      Path: Events\Default Work Unit\TriggerBoxes
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: User Interface
       guid: a2789feb74591e429cdb0e5495e63d5d
       id: 216161133
@@ -1544,7 +1601,7 @@ MonoBehaviour:
     m_lastTime: -8584696105321815362
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000200000003000000040000000500000006000000070000000a0000000b0000000e0000008200000083000000850000008600000087000000880000008e000000
+  ExpandedWaapiItemIds: 010000000200000003000000040000000500000006000000070000000a0000000b0000000d0000000e0000008200000083000000850000008600000087000000880000008e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

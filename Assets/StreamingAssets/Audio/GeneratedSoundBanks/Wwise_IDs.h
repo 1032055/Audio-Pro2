@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID PLAY_BREATHING = 4093367312U;
         static const AkUniqueID PLAY_CROWS_RANDOM_CONTAINER = 820444688U;
         static const AkUniqueID PLAY_DOOR_BASEMENT_BULKHEAD_CLOSE = 1751998966U;
         static const AkUniqueID PLAY_DOOR_BASEMENT_BULKHEAD_OPEN = 3610768546U;
@@ -39,6 +40,7 @@ namespace AK
         static const AkUniqueID PLAY_OUTSIDE_AMBIENCE_AND_MUSIC_BLEND_CONTAINER = 1513891888U;
         static const AkUniqueID PLAY_PIANO = 1479974693U;
         static const AkUniqueID PLAY_SMALL_CLOCK = 813190480U;
+        static const AkUniqueID PLAY_SPOOKYLAUGH1 = 3354162405U;
         static const AkUniqueID PLAY_STINGER = 754369548U;
         static const AkUniqueID PLAY_TELEPHONE_ANSWER = 4285720487U;
         static const AkUniqueID PLAY_TELEPHONE_RING = 4029451095U;

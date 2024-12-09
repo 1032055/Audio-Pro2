@@ -130,7 +130,7 @@
 								<Action Name="" ID="{2C5AC76F-6C1C-48C5-8C0A-EE76352791FB}" ShortID="529898331">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Door_heavy_open" ID="{639ACF0B-950D-49A6-802A-055F67E742C1}" WorkUnitID="{157A0879-55FC-43E9-B85E-47E53620CAAC}"/>
+											<ObjectRef Name="Door_heavy_open" ID="{22D867D9-8881-485E-A10C-E66982AF69D3}" WorkUnitID="{157A0879-55FC-43E9-B85E-47E53620CAAC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -414,7 +414,7 @@
 								<Action Name="" ID="{E0420D6B-92E7-49EC-BECC-ED48D1B80E0C}" ShortID="118872427">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Telephone answer" ID="{B8B9BD3C-AD13-4FFC-9422-4863F78D6A5A}" WorkUnitID="{157A0879-55FC-43E9-B85E-47E53620CAAC}"/>
+											<ObjectRef Name="Phone Answer Random" ID="{CF16C60B-DF18-414E-B985-E4B8C4A2460E}" WorkUnitID="{157A0879-55FC-43E9-B85E-47E53620CAAC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -504,6 +504,36 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Fridge" ID="{99CD44C7-5F27-4D81-A34A-F0C44A4A2673}" WorkUnitID="{157A0879-55FC-43E9-B85E-47E53620CAAC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Breathing" ID="{148CB808-6533-42FC-84D4-70395B5AA7D9}">
+							<ChildrenList>
+								<Action Name="" ID="{E12DEE87-0560-410F-B43F-9C3A9750D7C1}" ShortID="77693832">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Breathing" ID="{FB85AD5F-04A9-42A4-A0B2-E4680EF5E275}" WorkUnitID="{157A0879-55FC-43E9-B85E-47E53620CAAC}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="TriggerBoxes" ID="{149BE747-17E5-4293-8323-18903DBC0B3F}" ShortID="1038442176">
+					<ChildrenList>
+						<Event Name="Play_SpookyLaugh1" ID="{460FB381-7944-4068-96D3-7268FAA62474}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Action Name="" ID="{691FADE7-2255-4E51-B7D2-90ECD4EFEBBF}" ShortID="152206344">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SpookyLaugh1" ID="{797959ED-A3FE-4998-9605-3AFFD7C02427}" WorkUnitID="{157A0879-55FC-43E9-B85E-47E53620CAAC}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
